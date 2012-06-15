@@ -1,0 +1,38 @@
+[user]
+	name = Dmitriy Zaporozhets
+	email = YOUR_EMAIL
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	lg = log -p
+[core]
+  editor = vim
+
+# this one is very cool:
+# green means "to be committed"
+# red means "not to be committed"
+[status]
+  color = auto
+
+[color]
+  ui = auto
+
+[color "diff"]
+  meta = blue bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow bold
+  remote = green bold
+  plain = red bold
+
+[color "status"]
+  added = yellow
+  changed = green bold
+  untracked = blue bold
